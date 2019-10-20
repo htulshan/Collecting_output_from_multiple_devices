@@ -1,0 +1,19 @@
+Motivation: Collecting same set of show commands from multiple devices can a time consuming task.
+
+Objective: Connecting to multiple devices and collecting show output.
+
+
+Logic of Script:
+
+The script takes its input from logindata.csv and commandset.yaml files.
+Connects to multiple devices simultaneously to decrease runtime 
+(I have taken 5 devices at a time, you can change this number as per your requirements)
+The outputs is stored in file name : output.txt
+script is written in python 3.
+
+For test case i have hosted the script on a windows laptop and the devices it connects to are mostly cisco ios 
+but it should work for any device supported in netmiko.
+
+running time logs on the scripts have been shared in file : runtimeshelllogs
+
+

@@ -1,0 +1,55 @@
+PS C:\Users\htulshan\Documents\Projects\Collecting_outputs_from_multiple_devices> python '.\Output_from _multiple_devices.py'
+========================================
+Please make sure that login data is stored in 'logindata.csv' file and show command is stored in 'commandset.yaml' file, hit RETURN to continue
+========================================
+Reading logindata.
+========================================
+Reading show command.
+========================================
+Connecting to devices and collecting outputs.
+========================================
+ThreadPoolExecutor-0_0 root INFO: ===> 2019-10-20 18:23:35.445921 Connection requested to: 192.1.1.137
+ThreadPoolExecutor-0_1 root INFO: ===> 2019-10-20 18:23:35.451273 Connection requested to: 192.1.1.140
+ThreadPoolExecutor-0_2 root INFO: ===> 2019-10-20 18:23:35.455224 Connection requested to: 192.1.1.141
+ThreadPoolExecutor-0_3 root INFO: ===> 2019-10-20 18:23:35.456259 Connection requested to: 192.1.1.150
+ThreadPoolExecutor-0_4 root INFO: ===> 2019-10-20 18:23:35.464199 Connection requested to: 192.1.1.152
+Thread-2 paramiko.transport INFO: Connected (version 2.0, client Cisco-1.25)
+Thread-1 paramiko.transport INFO: Connected (version 1.99, client Cisco-1.25)
+Thread-3 paramiko.transport INFO: Connected (version 2.0, client Cisco-1.25)
+Thread-4 paramiko.transport INFO: Connected (version 1.99, client Cisco-1.25)
+Thread-4 paramiko.transport INFO: Authentication (password) successful!
+Thread-2 paramiko.transport INFO: Authentication (password) successful!
+Thread-1 paramiko.transport INFO: Authentication (password) successful!
+Thread-3 paramiko.transport INFO: Authentication (password) successful!
+ThreadPoolExecutor-0_0 root INFO: <=== 2019-10-20 18:23:42.098474 Connection established with: 192.1.1.137
+ThreadPoolExecutor-0_0 root INFO: ===> 2019-10-20 18:23:42.099189 Collecting output from: 192.1.1.137
+ThreadPoolExecutor-0_3 root INFO: <=== 2019-10-20 18:23:42.849131 Connection established with: 192.1.1.150
+ThreadPoolExecutor-0_3 root INFO: ===> 2019-10-20 18:23:42.849131 Collecting output from: 192.1.1.150
+ThreadPoolExecutor-0_2 root INFO: <=== 2019-10-20 18:23:43.252488 Connection established with: 192.1.1.141
+ThreadPoolExecutor-0_2 root INFO: ===> 2019-10-20 18:23:43.253492 Collecting output from: 192.1.1.141
+ThreadPoolExecutor-0_0 root INFO: <=== 2019-10-20 18:23:43.763781 Collected outputs from: 192.1.1.137
+ThreadPoolExecutor-0_0 root INFO: ===> 2019-10-20 18:23:43.765790 Connection requested to: 192.1.1.154
+ThreadPoolExecutor-0_1 root INFO: <=== 2019-10-20 18:23:43.829350 Connection established with: 192.1.1.140
+ThreadPoolExecutor-0_1 root INFO: ===> 2019-10-20 18:23:43.830125 Collecting output from: 192.1.1.140
+ThreadPoolExecutor-0_3 root INFO: <=== 2019-10-20 18:23:44.403519 Collected outputs from: 192.1.1.150
+ThreadPoolExecutor-0_3 root INFO: ===> 2019-10-20 18:23:44.403519 Connection requested to: 192.1.1.157
+ThreadPoolExecutor-0_2 root INFO: <=== 2019-10-20 18:23:44.815195 Collected outputs from: 192.1.1.141
+ThreadPoolExecutor-0_2 root INFO: ===> 2019-10-20 18:23:44.816151 Connection requested to: 192.1.1.158
+ThreadPoolExecutor-0_1 root INFO: <=== 2019-10-20 18:23:45.456793 Collected outputs from: 192.1.1.140
+ThreadPoolExecutor-0_4 root INFO: <=== 2019-10-20 18:23:50.974433 Connection failed to: 192.1.1.152
+ThreadPoolExecutor-0_0 root INFO: <=== 2019-10-20 18:23:52.759289 Connection established with: 192.1.1.154
+ThreadPoolExecutor-0_0 root INFO: ===> 2019-10-20 18:23:52.760299 Collecting output from: 192.1.1.154
+ThreadPoolExecutor-0_3 root INFO: <=== 2019-10-20 18:23:53.785743 Connection established with: 192.1.1.157
+ThreadPoolExecutor-0_3 root INFO: ===> 2019-10-20 18:23:53.786740 Collecting output from: 192.1.1.157
+ThreadPoolExecutor-0_2 root INFO: <=== 2019-10-20 18:23:54.201626 Connection established with: 192.1.1.158
+ThreadPoolExecutor-0_2 root INFO: ===> 2019-10-20 18:23:54.202498 Collecting output from: 192.1.1.158
+ThreadPoolExecutor-0_0 root INFO: <=== 2019-10-20 18:23:54.388759 Collected outputs from: 192.1.1.154
+ThreadPoolExecutor-0_3 root INFO: <=== 2019-10-20 18:23:55.409121 Collected outputs from: 192.1.1.157
+ThreadPoolExecutor-0_2 root INFO: <=== 2019-10-20 18:23:55.821375 Collected outputs from: 192.1.1.158
+========================================
+Writing Data to "output.txt" file.
+========================================
+========================================
+Data written to output.txt file, hit RETURN to exit
+========================================
+PS C:\Users\htulshan\Documents\Projects\Collecting_outputs_from_multiple_devices>

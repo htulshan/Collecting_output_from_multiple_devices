@@ -1,0 +1,9 @@
+ip,username,password,secret,device_type
+192.1.1.137,Cisco,cisco,Not Required,cisco_ios
+192.1.1.140,Not Required,cisco,Not Required,cisco_ios_telnet
+192.1.1.141,Cisco,Cisco,Not Required,cisco_ios
+192.1.1.150,Cisco,Cisco,cisco,cisco_ios
+192.1.1.152,Cisco,cisco,Not Found,cisco_ios
+192.1.1.154,Not Required,cisco,cisco,cisco_ios_telnet
+192.1.1.157,Cisco,Cisco,Not Required,cisco_ios_telnet
+192.1.1.158,Cisco,cisco,Not Required,cisco_ios_telnet

@@ -1,0 +1,59 @@
+192.1.1.137
+
+show privilege
+Current privilege level is 15
+
+show clock
+*14:45:10.905 UTC Sat Mar 6 1993
+
+192.1.1.140
+
+show privilege
+Current privilege level is 15
+
+show clock
+*12:03:42.278 UTC Sun Oct 20 2019
+
+192.1.1.141
+
+show privilege
+Current privilege level is 15
+
+show clock
+*21:43:53.482 CDT Sat Oct 19 2019
+
+192.1.1.150
+
+show privilege
+Current privilege level is 15
+
+show clock
+18:32:15.431 UTC Sun Oct 20 2019
+
+192.1.1.152
+Unable to login
+
+192.1.1.154
+
+show privilege
+Current privilege level is 15
+
+show clock
+*05:53:19.722 UTC Sun Oct 20 2019
+
+192.1.1.157
+
+show privilege
+Current privilege level is 15
+
+show clock
+*12:09:59.483 UTC Sun Oct 20 2019
+
+192.1.1.158
+
+show privilege
+Current privilege level is 15
+
+show clock
+*05:51:00.307 UTC Sun Oct 20 2019
+
